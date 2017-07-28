@@ -1,0 +1,14 @@
+body{
+    color:dimgrey;
+    background-color: lightcyan;
+    font-family: cursive;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.trabajo{
+    border: solid 1px black;
+    display: inline-block;
+}
