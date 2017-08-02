@@ -1,14 +1,50 @@
+@font-face{
+   font-family: letradescargada;
+    src: url(../fonts/AlexBrush-Regular.ttf);
+    font-weight: bold;
+}
 body{
     color:dimgrey;
     background-color: lightcyan;
-    font-family: cursive;
+ font-family: 'Nunito', sans-serif;
+    background-image: url(http://st.gde-fon.com/wallpapers_original/265756_bokeh_-bliki_-krugi_-svet_1920x1200_www.Gde-Fon.com.jpg);
+    
 }
 
 .container{
     width: 90%;
     margin: 0 auto;
 }
+h1{
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 55px;
+	color: #fff;
+    text-shadow: 0px 0px 10px #06f, 0px 0px 15px #69f, 0px 0px 20px #0ff;
+}
+h2{
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 25px;
+	color: #fff;
+}
+.trabajo a{
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase; /*mayusculas*/
+}
 .trabajo{
-    border: solid 1px black;
+    border: solid 2px blue;
+    width: 300px;
+    min-height: 300px; 
     display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    vertical-align: top;
+    text-align: center;
+    background-color: rgba(255,255,255,.4);
+}
+
+p.descripcion{
+    font-family: letradescargada, sans-serif;
+    font-size: 2em;
+    color: ghostwhite;
 }
