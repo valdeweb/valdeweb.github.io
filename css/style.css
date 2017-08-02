@@ -6,7 +6,7 @@
 body{
     color:dimgrey;
     background-color: lightcyan;
- font-family: 'Nunito', sans-serif;
+    font-family: nunito, sans-serif;
     background-image: url(http://st.gde-fon.com/wallpapers_original/265756_bokeh_-bliki_-krugi_-svet_1920x1200_www.Gde-Fon.com.jpg);
     
 }
@@ -27,24 +27,24 @@ h2{
 	color: #fff;
 }
 .trabajo a{
-    color: blue;
+    color: lightpink;
     text-decoration: none;
     text-transform: uppercase; /*mayusculas*/
 }
 .trabajo{
     border: solid 2px blue;
-    width: 300px;
+    width: 270px;
     min-height: 300px; 
     display: inline-block;
     padding: 10px;
     margin-right: 10px;
     vertical-align: top;
     text-align: center;
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(255,255,255,.5);
 }
 
 p.descripcion{
     font-family: letradescargada, sans-serif;
     font-size: 2em;
-    color: ghostwhite;
+    color: blue;
 }
