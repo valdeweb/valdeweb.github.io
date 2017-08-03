@@ -41,10 +41,28 @@ h2{
     vertical-align: top;
     text-align: center;
     background-color: rgba(255,255,255,.5);
+    
 }
 
 p.descripcion{
     font-family: letradescargada, sans-serif;
     font-size: 2em;
     color: blue;
+}
+.trabajo:hover{
+    background-color: wheat; 
+}
+footer{
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 20px;
+	color: #fff;
+    
+}
+img{
+    padding: 0;
+    margin: 0;
 }
