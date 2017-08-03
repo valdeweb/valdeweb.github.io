@@ -63,6 +63,6 @@ footer{
     
 }
 img{
-    padding: 0;
+    padding: 0; /* ponemos este padding y margin para poder quitar el margen de la caja y así agrandar las imagenes*/
     margin: 0;
 }
