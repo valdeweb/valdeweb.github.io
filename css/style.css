@@ -3,6 +3,7 @@
     src: url(../fonts/AlexBrush-Regular.ttf);
     font-weight: bold;
 }
+
 body{
     color:dimgrey;
     background-color: lightcyan;
@@ -52,6 +53,29 @@ p.descripcion{
 .trabajo:hover{
     background-color: wheat; 
 }
+nav{
+    position: fixed;
+    display: block;
+    top: 0;
+    right: 20px;
+    text-align: center;
+      
+}
+nav ul{
+   list-style: none; /*quita los puntos de la lista*/
+}
+
+nav li{
+   
+    background-color: beige;
+    width: 70px;
+       
+}
+nav li a{
+    color:green;
+    font-size: 2em;       
+}
+
 footer{
     padding: 10px;
     position: fixed;
