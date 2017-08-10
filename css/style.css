@@ -9,12 +9,15 @@ body{
     background-color: lightcyan;
     font-family: nunito, sans-serif;
     background-image: url(http://st.gde-fon.com/wallpapers_original/265756_bokeh_-bliki_-krugi_-svet_1920x1200_www.Gde-Fon.com.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
 .container{
     width: 90%;
     margin: 0 auto;
+    height: auto;
 }
 h1{
     font-family: 'Fredoka One', sans-serif;
