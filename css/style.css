@@ -9,8 +9,8 @@ body{
     background-color: lightcyan;
     font-family: nunito, sans-serif;
     background-image: url(http://st.gde-fon.com/wallpapers_original/265756_bokeh_-bliki_-krugi_-svet_1920x1200_www.Gde-Fon.com.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat; /*esto es para que no se repita la imagen de fondo*/
+    background-size: cover; /*esto es para que la imagen cubra toda la pantalla aunque añadamos más enlaces (nuevos trabajos)*/
     
 }
 
