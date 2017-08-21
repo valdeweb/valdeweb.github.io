@@ -18,6 +18,7 @@ body{
     width: 90%;
     margin: 0 auto;
     height: auto;
+    margin-bottom: 100px;
 }
 h1{
     font-family: 'Fredoka One', sans-serif;
@@ -92,4 +93,16 @@ footer{
 img{
     padding: 0; /* ponemos este padding y margin para poder quitar el margen de la caja y así agrandar las imagenes*/
     margin: 0;
+}
+@media (max-width: 300px){  /*esto es para que cuando sea un movil*/
+    .trabajo{
+    margin-bottom: 1em;       
+    
+}
+    nav{
+    top: 300px;
+    right: 20px;
+    text-align: center;
+      
+}
 }
