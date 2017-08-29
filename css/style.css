@@ -94,7 +94,7 @@ img{
     padding: 0; /* ponemos este padding y margin para poder quitar el margen de la caja y así agrandar las imagenes*/
     margin: 0;
 }
-@media (max-width: 300px){  /*esto es para que cuando sea un movil*/
+@media (max-width: 300px){  /*esto es para cuando sea un movil*/
     .trabajo{
     margin-bottom: 1em;       
     
